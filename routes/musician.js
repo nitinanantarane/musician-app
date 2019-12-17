@@ -10,10 +10,6 @@ router.get('/health1', (req, res) => {
   res.status('200').send("Another healthcheck Status: ok!");
 });
 
-// healthcheck
-router.get('/health', (req, res) => {
-  res.status('200').send("Status: ok!");
-});
 
 // retrieve all musicians from data store
 router.get('/all', (req, res) => {
